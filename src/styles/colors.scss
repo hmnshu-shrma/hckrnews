@@ -4,6 +4,7 @@ $font-family-roboto:'Roboto', sans-serif;
 
 //primary color variables
 $black:#000;
+$txtColor:#0f0701;
 $white:#fff;
 $secondaryCTA:#1f53a3;
 $primaryCTA:linear-gradient(to right, #229fe8, #5256d0);
@@ -17,3 +18,8 @@ $textColor1:#444444;
 $textColor2:#989898;
 $textColor3:#ababab;//placeholder is 0.5 of this color
 $placeholder:rgba(152, 152, 152, .5);
+$listColor:#f6f6ef;
+
+$listColorOdd:#e6e6df;
+$linkVisited:#828282;
+//rgba(15, 7, 1, 0.47)

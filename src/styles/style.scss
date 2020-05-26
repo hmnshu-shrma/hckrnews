@@ -1,11 +1,5 @@
 @import "colors";
-
-.heading{
-  color: $textColor1;
-  p{
-    color:$primaryCTA;
-    span{
-      color: $alert;
-    }
-  }
+body{
+  background: $listColor;
+  font-style: $font-family-roboto;
 }

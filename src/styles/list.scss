@@ -1,0 +1,52 @@
+@import "colors";
+.list {
+  list-style: none;
+  padding:15px;
+  span{
+    margin: 3px  5px;
+  }
+  .cont__list{
+    padding:15px 0px;
+    background: $listColor;
+    &--comments{
+      color: $txtColor;
+    }
+    &--title {
+      color: $txtColor;
+      font-size: 14px;
+    }
+    &--url {
+      color: $linkVisited;
+      font-size: 13px;
+      margin: 3px  5px;
+    }
+    &--author {
+
+    }
+    &--iconUpvote{
+      .upvote_img{
+        width:13px;
+        height:13px;
+      }
+    }
+    &:nth-child( odd ){
+      background: $listColorOdd;
+    }
+  }
+}
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: normal;
+  .col {
+    &--1{
+      width:5%;
+    }
+    &--2{
+      width: 5%;
+    }
+    &--3{
+      width: 2%;
+    }
+  }
+}

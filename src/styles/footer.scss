@@ -1,0 +1,11 @@
+@import "colors";
+.footer{
+  background-color: #ff6600;
+  padding:15px;
+  a{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: $white;
+  }
+}
