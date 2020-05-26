@@ -1,8 +1,9 @@
 # react-custom-boilerplate
 custom-react-boilerplate for ssr
-
 #addednewbuild configs
 
-#to run the app 
-npm run build
-npm run start-dev
+#how to run the app
+
+1. npm i
+2. npm run build
+3. npm run start-dev
